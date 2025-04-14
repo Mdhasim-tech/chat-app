@@ -19,7 +19,7 @@ const Chat = () => {
 
     setCurrentUserId(currentUser._id);
 
-    const newSocket = io('http://localhost:5000');
+    const newSocket = io(`http://${window.location.hostname}:${process.env.PORT}`);
     socketRef.current = newSocket;
 
     console.log('🔌 Connecting to socket...');
