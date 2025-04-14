@@ -1,0 +1,70 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #f0f4ff, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #1e40af;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navLinks a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 8rem;
+  padding: 2rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #1e3a8a;
+}
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #475569;
+}
+.ctaBtn {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #1e40af;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.ctaBtn:hover {
+  background-color: #1c3faa;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 0.9rem;
+}

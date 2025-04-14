@@ -1,0 +1,49 @@
+/* src/app/login/Login.module.css */
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form input {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .form button {
+    padding: 10px;
+    background: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .form button:hover {
+    background: #0059c1;
+  }
+
+  .message {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
